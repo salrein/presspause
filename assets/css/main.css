@@ -8602,18 +8602,7 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
-/* Top-left logo placement */
-#header {
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
-    background: none;
-    box-shadow: none;
-}
 
-#header .logo img {
-    width: 1600px; /* adjust size as needed */
-    height: auto;
-}
+
 
 
