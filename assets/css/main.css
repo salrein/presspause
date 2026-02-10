@@ -8604,7 +8604,6 @@ input, select, textarea {
 			}
 /* Top-left logo placement */
 #header {
-    position: fixed;
     top: 20px;
     left: 20px;
     z-index: 1000;
@@ -8613,6 +8612,7 @@ input, select, textarea {
 }
 
 #header .logo img {
-    width: 120px; /* adjust size as needed */
+    width: 600px; /* adjust size as needed */
     height: auto;
 }
+
