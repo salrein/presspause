@@ -5,6 +5,7 @@
 	Story by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -8601,3 +8602,17 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+/* Top-left logo placement */
+#header {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: none;
+    box-shadow: none;
+}
+
+#header .logo img {
+    width: 120px; /* adjust size as needed */
+    height: auto;
+}
